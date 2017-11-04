@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity = "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin = "anonymous">
+    <link rel = "stylesheet" href = "/stylesheets/custom.css">
+    <link href = "https://fonts.googleapis.com/css?family=Lato:700|Noto+Sans|Source+Sans+Pro:300" rel = "stylesheet">
+    <script src="https://use.fontawesome.com/0430e3247e.js"></script>
+    <title>Bootstrap</title>
+</head>
+<body>
+    <!--nav bar begins here-->
+    <div class = "navbar-class">
+        <nav class = "navbar navbar-default">
+            <div class = "container-fluid">
+                <div class = "navbar-header">
+                    <button type = "button" class = "navbar-toggle collapsed" data-toggle = "collapse"
+                            data-target = "#navbar" aria-expanded = "false" aria-controls = "navbar">
+                        <span class = "sr-only">Toggle navigation</span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                    </button>
+                    <a class = "navbar-brand" href = "#">Bootstrap</a>
+                </div>
+                <div id = "navbar" class = "navbar-collapse collapse">
+                    <ul class = "nav navbar-nav">
+                        <li class = "active"><a href = "#">Home</a></li>
+                        <li><a href = "#">About</a></li>
+                        <li><a href = "#">Contact</a></li>
+                        <li class = "dropdown">
+                            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown" role = "button"
+                               aria-haspopup = "true" aria-expanded = "false">Dropdown <span class = "caret"></span></a>
+                            <ul class = "dropdown-menu">
+                                <li><a href = "#">Action</a></li>
+                                <li><a href = "#">Another action</a></li>
+                                <li><a href = "#">Something else here</a></li>
+                                <li role = "separator" class = "divider"></li>
+                                <li class = "dropdown-header">Nav header</li>
+                                <li><a href = "#">Separated link</a></li>
+                                <li><a href = "#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class = "nav navbar-nav navbar-right">
+                        <li class = "active"><a href = "./">Default <span class = "sr-only">(current)</span></a></li>
+                        <li><a href = "../navbar-static-top/">Static top</a></li>
+                        <li><a href = "../navbar-fixed-top/">Fixed top</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+        </nav>
+    </div>
+    <!--nav bar ends here-->
+
+    <!--header section begins-->
+    <div class = "header" id = "header">
+        <div class = "container">
+            <h2>Welcome to Bootstrap</h2>
+            <p>We promise that after working with Bootstrap, you will never go back to  normal css. Bootstrap is magic. Like Havana in
+                Cuba, it is Heaven for developers. Who would not like to go to heaven? Certainly not you. </p>
+            <a class="btn btn-default btn-lg" href="http://getbootstrap.com" target="_blank">Learn Bootstrap Here</a>
+        </div>
+    </div>
+    <!--header section ends-->
+
+    <!--footer section begins-->
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="col-lg-6 col-md-6">
+                <h2>Contacts</h2>
+                <i class="fa fa-home contact" aria-hidden="true"></i>123, Westlands <br>
+                <i class="fa fa-envelope-o contact" aria-hidden="true"></i>info@sass.com <br>
+                <i class="fa fa-phone contact" aria-hidden="true"></i>+2541231289 <br>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <h2>Social Media</h2>
+                <i class="fa fa-facebook social" aria-hidden="true"></i>
+                <i class="fa fa-instagram social" aria-hidden="true"></i>
+                <i class="fa fa-twitter social" aria-hidden="true"></i>
+                <i class="fa fa-pinterest-p social" aria-hidden="true"></i> <br>
+                <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2017. Bootstrap</p>
+            </div>
+        </div>
+    </div>
+    <!--footer section ends-->
+
+</body>
+</html>
